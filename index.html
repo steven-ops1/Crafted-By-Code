@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crafted-By-Code</title>
+    <link rel="icon" type="image/jpg" href="logo3.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+
+</head>
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #EEEEEE, #212121, #0D7377, #32E0C4);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+    border-radius: 25px;
+    border: 2px solid white;
+    border-width: 10px;
+    width: 50%;
+    height: 70%;
+    box-shadow: 3px 3px 5px 5px white;
+}
+h1 {
+    font-size: 2.5rem;
+}
+p {
+    font-size: 1.3rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    color: white;
+    background: #212121;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.bordered-image{
+    border: 5px solid white;
+    border-radius: 100px;
+    animation: fadeIn 2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+.bordered-image:hover {
+    transform: scale(1.1);
+}
+
+
+    
+</style>
+<body>
+    <div class="container">
+        <h1><b>CRAFTED-BY-CODE</b></h1>
+        <p>Click here to view and be fascinated!</p>
+        <a href="Villacorta&Planas.html" class="btn">Get Started</a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="cj.html" target="_self"><img src="profilepic.jpg" class="bordered-image" width="200" height="200"></a>
+        &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+        <a href="steven.html" target="_self"><img src="profilepic2.jpg" class="bordered-image" width="200" height="200"></a>
+    </div>
+    
+</body>
+</html>
